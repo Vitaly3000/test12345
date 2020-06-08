@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GENOTEK</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="container">
+          <div class="header__top">
+            <div class="header__logo">
+              GENOTEK
+            </div>
+            <div class="header__last-visit">
+              неделю назад
+            </div>
+            <div class="header__access">
+              <div class="header__access">
+                <img src="images/user-icon.svg" alt="" />
+                <span>доступно только мне</span>
+              </div>
+            </div>
+          </div>
+          <h1 class="header__title">
+            Подарочный набор для сдачи ДНК-теста доставлен
+          </h1>
+          <div class="header__text">
+            Спасибо, что выбрали Genotek! На упаковке вы найдете подробную
+            инструкцию как сдать ДНК-тест.
+          </div>
+        </div>
+      </header>
+      <section class="main">
+        <div class="container">
+          <div class="main-img">
+           <img src="images/main-bg.jpg" alt="">
+          </div>
+          <div class="main-tabs">
+            <div class="tab tab--first" >
+              Как подарить набор другу, чтобы он создал свой личный кабинет?
+            </div>
+            <div class="tab-info tab-info--first">
+              <div class="tab-info__text">
+                <p>
+                  Все просто! На подарочной упаковке ДНК-теста указан временный
+                  логин и пароль, который защищен стираемой полосой.
+                </p>
+                <p>
+                  Человеку, который получил ДНК-тест в подарок, нужно ввести
+                  временный логин и пароль на странице входа в личный кабинет
+                  <a href="#">lk.genotek.ru.</a> После этого ему будет предложено
+                  зарегистрироваться или указать данные уже зарегистрированного
+                  пользователя, ввести номер пробирки и вызвать курьера для
+                  доставки биоматериала в лабораторию.
+                </p>
+                <p>
+                  Обратите внимание, что по умолчанию вы не получите доступ к
+                  результатам ДНК-теста того, кому вы подарили тест. Но вы
+                  можете попросить вашего близкого поделиться с вами
+                  результатами в его настройках профиля.
+                </p>
+              </div>
+              <div class="tab-info__img">
+               <img src="images/tab-img.png" alt="">
+              </div>
+              
+            </div>
+            <div class="tab tab--second"  >
+              Хочу активировать ДНК-тест в этом личном кабинете
+            </div>
+            <div class="tab-info tab-info--second" >
+             <form action="">
+              <div class="tab-info__input">
+               <input id = "text" placeholder="Логин" type="text">
+              <span onclick="this.previousElementSibling.value = ''" class="close"><img src="images/inputX.svg" alt=""></span>
+              </div>
+              <div class="tab-info__input">
+               <input id = "text" placeholder="Пароль" type="text">
+              <span onclick="this.previousElementSibling.value = ''" class="close"><img src="images/inputX.svg" alt=""></span>
+              </div>
+              <button class="tab-info__btn">Активировать ДНК-тест</button>
+             </form>
+             <div class="tab-info__img">
+              <img src="images/tab-img.png" alt="">
+             <div/>
+           </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+  </body>
+  <script src="js/main.js"></script>
+</html>
